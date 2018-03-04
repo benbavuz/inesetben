@@ -104,8 +104,8 @@ header .intro-text .name {
 
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 2em;
-  padding-top:150px;
+  font-size: 4em;
+  padding-top:100px;
 
 }
 header .intro-text .skills {
@@ -114,7 +114,7 @@ header .intro-text .skills {
 }
 @media (min-width: 768px) {
   header .container {
-    padding-top: 200px;
+    padding-top: 150px;
     padding-bottom: 100px;
   }
   header .intro-text .name {
@@ -483,7 +483,7 @@ fieldset[disabled] .btn-success.active {
 }
 div#maincontent {
   outline: none;
-  height:800px;
+  height:700px;
 }
 
 
@@ -537,5 +537,36 @@ strong {
 .parcours {
   padding-top: 60px;
   padding-bottom:30px;
+}
+
+
+.title-prog {
+  font-size: 25px;
+  color: $brand-color1;
+  font-weight: bold
+}
+
+.padded-bottom-30 {
+  padding-bottom: 30px
+}
+
+.padded-top-30 {
+  padding-top: 30px
+}
+
+.violet {
+  color: #B9B3D9
+}
+
+.lines-program {
+  font-size: 20px;
+}
+
+.padded-top-15 {
+  padding-top: 15px;
+}
+
+.padded-bottom-60 {
+  padding-bottom: 60px
 }
 
